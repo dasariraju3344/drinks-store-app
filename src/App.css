@@ -1,0 +1,46 @@
+.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 30px;
+}
+
+.data div img {
+  width: 60%;
+}
+
+@media screen and (min-width: 769px) {
+  .data{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.image {
+  border-radius: 8px;
+  box-shadow: 10px 10px 3px gray;
+}
+
+h1{
+  color: #39063c;
+  height: 70px;
+  padding: 30px;
+  background: linear-gradient(to right, #a448e1, #d64444, #f8a634);
+  border-radius: 10px;
+}
+
+
+.input {
+  height: 20px;
+  width: 280px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: large;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
